@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "output": "export"
+    "export": "next export"
   },
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^7.0.0",
