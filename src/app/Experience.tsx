@@ -3,10 +3,33 @@ export default function Experience() {
     <section id="experience">
       <h2 className="text-2xl font-semibold mb-6">Professional Experience</h2>
       <div className="flex flex-col gap-6">
+        {/* Graduate Teaching Assistant */}
+        <div className="bg-white dark:bg-gray-800 rounded-xl shadow p-6">
+          <div className="flex items-center justify-between mb-1">
+            <span className="text-xl font-bold">
+              Graduate Research and Teaching Assistant
+            </span>
+            <span className="italic text-base text-gray-700 dark:text-gray-300">
+              Aug 2025 - present
+            </span>
+          </div>
+          <div className="text-base font-semibold mb-1">
+            Villanova University
+          </div>
+          <div className="mt-2">
+            <ul className="list-disc ml-6 mt-2 text-sm">
+              <li>
+                Teaching Assistant for courses: Theory of Computability, and
+                Foundations of Data Structure and Algorithms.
+              </li>
+            </ul>
+          </div>
+        </div>
+
         {/* Software Developer */}
         <div className="bg-white dark:bg-gray-800 rounded-xl shadow p-6">
           <div className="flex items-center justify-between mb-1">
-            <span className="text-xl font-bold">Web Developer</span>
+            <span className="text-xl font-bold">Software Developer</span>
             <span className="italic text-base text-gray-700 dark:text-gray-300">
               July 2025 - August 2025
             </span>
@@ -20,62 +43,20 @@ export default function Experience() {
           <div className="mt-2">
             <ul className="list-disc ml-6 mt-2 text-sm">
               <li>
-                Developed and maintained website for the courses:{" "}
-                <i>
-                  <a
-                    href="https://github.com/rweldzius/data-science-site"
-                    className="text-blue-500 hover:underline"
-                  >
-                    Intro to Data Science,
-                  </a>
-                </i>{" "}
-                and{" "}
-                <i>
-                  <a
-                    href="https://github.com/rweldzius/quant-social-science"
-                    className="text-blue-500 hover:underline"
-                  >
-                    Quantitative Social Science
-                  </a>
-                </i>{" "}
-                for Department of Political Science, Villanova University.
+                Developed and launched 2 interactive course websites for the
+                Political Science department, serving as the primary educational
+                hub for over 50 students per semester.
               </li>
               <li>
-                Collaborated with faculty to integrate multimedia elements into
-                course websites, enhancing user experience, and accessibility.
+                Led the requirements gathering process for product
+                accessibility, structuring stakeholder feedback into a
+                prioritized roadmap that guided the implementation of friendly
+                navigation and design.
               </li>
               <li>
-                Developed deployment pipelines using GitHub Actions to automate
-                deployment processes for course websites.
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        {/* Graduate Assistant Summer */}
-        <div className="bg-white dark:bg-gray-800 rounded-xl shadow p-6">
-          <div className="flex items-center justify-between mb-1">
-            <span className="text-xl font-bold">Summer Graduate Assistant</span>
-            <span className="italic text-base text-gray-700 dark:text-gray-300">
-              May 2025 - August 2025
-            </span>
-          </div>
-          <div className="text-base font-semibold mb-1">
-            Villanova University
-          </div>
-          <div className="mt-2">
-            <ul className="list-disc ml-6 mt-2 text-sm">
-              <li>
-                Prepared core teaching materials for courses:{" "}
-                <i>
-                  Python Programming, Data Structures & Algorithms, Computer
-                  Organization & Architecture
-                </i>{" "}
-                including coding exercises, and assessments.
-              </li>
-              <li>
-                Conducted and managed office hours, providing support to the
-                department and ensuring smooth course pro- gression.
+                Automated all build and deployment processes by implementing
+                CI/CD pipelines with GitHub Actions, reducing deployment time
+                from 30 minutes to just 2 minutes.
               </li>
             </ul>
           </div>
@@ -97,28 +78,29 @@ export default function Experience() {
           <div className="mt-2">
             <ul className="list-disc ml-6 mt-2 text-sm">
               <li>
-                Investigated the application of ML and LLMs to extract
-                contextual insights from large-scale, multilingual textual
-                datasets.
+                Benchmarked diverse NLP models for role classification,
+                architecting and evaluating pipelines from traditional
+                (FastText, Logistic Regression) to advanced transformer-based
+                approaches (BERT, BART).
               </li>
               <li>
-                Designed and implemented scalable data pipelines for the
-                collection, cleansing, and preprocessing of unstructured text to
-                support reproducible research.
+                Engineered feature engineering pipeline using NLP tools,
+                applying advanced techniques; dependency parsing and coreference
+                resolution to enrich the context of the entity and improve the
+                accuracy of the downstream model.
               </li>
               <li>
-                Analyzed and visualized feature distributions (Seaborn,
-                Matplotlib) to inform hypothesis generation and refined data
-                labeling protocols.
+                Developed and trained dual-language NLP models for English and
+                Russian, managing distinct tokenization chal- lenges,
+                multilingual datasets, and creating a unified pipeline for
+                cross-lingual role classification.
               </li>
               <li>
-                Served as a Teaching Assistant for CSC 1300: Discrete
-                Structures, mentoring students on foundational concepts in logic
-                and mathematics.
-              </li>
-              <li>
-                Assistant for CSC 1300: Discrete Structures, mentoring students
-                on foundational concepts in logic and mathematics.
+                Instructed 40+ students in CSC 1300 Discrete Structure by
+                leading weekly review sessions, evaluating hundreds of
+                assignments. Developed new curriculum materials for Summer
+                Python Programming, Intro to DSA, COA and System Architecture
+                courses to enhance student learning outcomes.
               </li>
             </ul>
           </div>

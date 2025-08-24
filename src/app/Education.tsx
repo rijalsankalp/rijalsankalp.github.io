@@ -10,7 +10,7 @@ export default function Education() {
               Master of Science in Computer Science
             </span>
             <span className="italic text-base text-gray-700 dark:text-gray-300">
-              Expected May 2026
+              August 2024 -- Present
             </span>
           </div>
           <div className="text-base font-semibold mb-1">
@@ -33,11 +33,14 @@ export default function Education() {
               Bachelor’s in Computer Engineering
             </span>
             <span className="italic text-base text-gray-700 dark:text-gray-300">
-              Apr 2023
+              November 2018 -- April 2023
             </span>
           </div>
           <div className="text-base font-semibold mb-1">
             Tribhuvan University
+          </div>
+          <div className="text-base font-semibold mb-1">
+            Awarded excellence scholarship from 2nd to 8th semester.
           </div>
           <div className="mt-2">
             <span className="font-semibold">Relevant Courseworks:</span>
