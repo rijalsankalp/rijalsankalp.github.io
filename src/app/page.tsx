@@ -311,7 +311,7 @@ export default function Home() {
           <section id="projects" className="mb-16">
             <h2 className="text-2xl font-semibold mb-6">Projects</h2>
             <div className="grid gap-8 sm:grid-cols-2">
-              <NovaMindCISBenchmarkMLOpsPipeline
+              <NovaMindCISBenchmarkMLOpsPipeline />
               <DepartmentDatabase />
               <ImageCaptionGeneration />
               <Perceparator />
