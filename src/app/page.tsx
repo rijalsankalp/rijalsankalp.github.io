@@ -13,6 +13,7 @@ import FitnessFlow from "./projects/FitnessFlow";
 import RanabhoomiAFiremanGame from "./projects/RanabhoomiAFiremanGame";
 import SnakeAndLadder3D from "./projects/SnakeAndLadder3D";
 import Perceparator from "./projects/Perceparator";
+import NovaMindCISBenchmarkMLOpsPipeline from "./projects/NovaMind CIS Benchmark MLOps Pipeline";
 
 import { useState } from "react";
 import Link from "next/link";
@@ -310,6 +311,7 @@ export default function Home() {
           <section id="projects" className="mb-16">
             <h2 className="text-2xl font-semibold mb-6">Projects</h2>
             <div className="grid gap-8 sm:grid-cols-2">
+              <NovaMindCISBenchmarkMLOpsPipeline
               <DepartmentDatabase />
               <ImageCaptionGeneration />
               <Perceparator />
