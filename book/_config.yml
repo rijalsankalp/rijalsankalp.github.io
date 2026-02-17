@@ -1,0 +1,61 @@
+# Jupyter Book configuration
+title: Sankalpa Rijal
+author: Sankalpa Rijal
+copyright: "2025"
+logo: ""
+
+# Build settings
+execute:
+  execute_notebooks: "off" # Don't run notebooks during build (set to "auto" to run)
+
+# HTML settings
+html:
+  favicon: _static/images/photo.jpeg
+  home_page_in_navbar: true
+  use_edit_page_button: false
+  use_repository_button: true
+  use_issues_button: false
+  use_download_button: false
+  use_fullscreen_button: false
+  navbar_number_sections: false
+  extra_footer: |
+    <div style="text-align: center; margin-top: 1rem;">
+      <a href="mailto:sankalpa.rijal239@gmail.com">sankalpa.rijal239@gmail.com</a> ·
+      <a href="https://github.com/rijalsankalp" target="_blank">GitHub</a> ·
+      <a href="https://linkedin.com/in/rijalsankalp" target="_blank">LinkedIn</a>
+    </div>
+  announcement: ""
+
+# Repository settings
+repository:
+  url: https://github.com/rijalsankalp/rijalsankalp.github.io
+  branch: main
+  path_to_book: book
+
+# Launch button (Binder / Colab for interactive notebooks)
+launch_buttons:
+  notebook_interface: "classic"
+  colab_url: "https://colab.research.google.com"
+  binderhub_url: ""
+
+# Sphinx extensions
+sphinx:
+  extra_extensions:
+    - sphinx_design
+    - sphinxcontrib.mermaid
+    - ablog
+  config:
+    html_theme_options:
+      navigation_with_keys: false
+      announcement: ""
+    # ABlog configuration for the blog section
+    blog_baseurl: "https://rijalsankalp.github.io"
+    blog_title: "Sankalpa Rijal"
+    blog_path: "blog"
+    blog_post_pattern: "blog/posts/*.md"
+    blog_feed_fulltext: true
+    post_auto_image: 1
+    post_auto_excerpt: 2
+    fontawesome_included: true
+    html_css_files:
+      - custom.css

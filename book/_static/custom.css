@@ -1,0 +1,27 @@
+/* Custom styles for portfolio */
+
+/* Rounded photo on the landing page */
+.rounded-photo {
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Card hover effects */
+.sd-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+}
+
+.sd-card {
+  transition: all 0.2s ease;
+}
+
+/* Hide dark/light theme toggle button */
+button.theme-switch-button,
+.theme-switch-button,
+button[aria-label="light/dark"],
+.bd-header-article__right .dropdown,
+.navbar-header-items__end .theme-switch-button {
+  display: none !important;
+}

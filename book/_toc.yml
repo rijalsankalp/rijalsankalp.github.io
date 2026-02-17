@@ -1,0 +1,32 @@
+# Table of contents
+format: jb-book
+root: intro
+parts:
+  - caption: Portfolio
+    chapters:
+      - file: experience
+      - file: education
+      - file: skills
+      - file: publications
+
+  - caption: Projects
+    chapters:
+      - file: projects/index
+        sections:
+          - file: projects/novamind-cis-benchmark-mlops
+          - file: projects/brain-tumor-classification
+          - file: projects/image-caption-generation
+          - file: projects/handwritten-devanagari-recognition
+          - file: projects/semeval-task-10
+          - file: projects/perceparator-speech-separation
+          - file: projects/department-database
+          - file: projects/slaabur-history-matters
+          - file: projects/fitness-flow
+          - file: projects/snake-and-ladder-3d
+          - file: projects/ranabhoomi-fireman-game
+
+  - caption: Blog
+    chapters:
+      - file: blog/index
+        sections:
+          - file: blog/posts/welcome
