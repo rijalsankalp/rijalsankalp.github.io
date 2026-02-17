@@ -4,7 +4,7 @@
 
 **Villanova University** · Aug 2024 – Present
 
-Coursework: Machine Learning, Deep Learning, Algorithms, Database Systems, Advanced NLP, AI in Health Informatics
+Coursework: LLMs, Machine Learning, Cloud Native App Design & Development, Design & Analysis of Algorithms
 
 ---
 
@@ -12,4 +12,5 @@ Coursework: Machine Learning, Deep Learning, Algorithms, Database Systems, Advan
 
 **Tribhuvan University** · Nov 2018 – Apr 2023
 
-Excellence scholarship (2nd–8th semester). Coursework: AI, Data Mining, Machine Learning, NLP, Software Engineering
+Excellence scholarship award 2nd to 8th semester
+Coursework: OOP, Database Mangement,Software Engineering, Data Mining, AI, Big Data Systems
