@@ -21,7 +21,5 @@ parts:
           - file: projects/slaabur-history-matters
           - file: projects/fitness-flow
           - file: projects/snake-and-ladder-3d
-          - file: projects/ranabhoomi-fireman-game
+      - file: projects/ranabhoomi-fireman-game
       - file: blog/index
-        sections:
-          - file: blog/posts/reasoning-causal-tracing
