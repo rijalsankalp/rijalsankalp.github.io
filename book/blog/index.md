@@ -1,6 +1,8 @@
 # Blog
 
-Updates, tutorials, and project write-ups.
+Welcome to my research and technical blog. I use this space to share ongoing experiments, project updates, tutorials, and lessons from building machine-learning systems.
+
+My current writing focuses on AI safety and mechanistic interpretability, including causal investigations of how language models represent and use information during reasoning. I also write about NLP research, MLOps, model deployment, and multimodal learning.
 
 ## Latest Post
 

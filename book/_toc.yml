@@ -8,25 +8,20 @@ parts:
       - file: education
       - file: skills
       - file: publications
-
-  - caption: Projects
-    chapters:
       - file: projects/index
-      - file: projects/reasoning-causal-tracing
-      - file: projects/novamind-cis-benchmark-mlops
-      - file: projects/brain-tumor-classification
-      - file: projects/image-caption-generation
-      - file: projects/handwritten-devanagari-recognition
-      - file: projects/semeval-task-10
-      - file: projects/perceparator-speech-separation
-      - file: projects/department-database
-      - file: projects/slaabur-history-matters
-      - file: projects/fitness-flow
-      - file: projects/snake-and-ladder-3d
-      - file: projects/ranabhoomi-fireman-game
-
-  - caption: Blog
-    chapters:
+        sections:
+          - file: projects/reasoning-causal-tracing
+          - file: projects/novamind-cis-benchmark-mlops
+          - file: projects/brain-tumor-classification
+          - file: projects/image-caption-generation
+          - file: projects/handwritten-devanagari-recognition
+          - file: projects/semeval-task-10
+          - file: projects/perceparator-speech-separation
+          - file: projects/department-database
+          - file: projects/slaabur-history-matters
+          - file: projects/fitness-flow
+          - file: projects/snake-and-ladder-3d
+          - file: projects/ranabhoomi-fireman-game
       - file: blog/index
-      - file: blog/posts/reasoning-causal-tracing
-      - file: blog/posts/welcome
+        sections:
+          - file: blog/posts/reasoning-causal-tracing
