@@ -19,7 +19,6 @@ I earned my **M.S. in Computer Science from Villanova University**, where my res
 ## Core Skills
 
 ````{card-carousel} 3
-:margin: 3
 
 ```{card} ML & Deep Learning
 PyTorch, TensorFlow, Keras, scikit-learn, XGBoost, BERT, GPT, Vision Transformers, LLMs
