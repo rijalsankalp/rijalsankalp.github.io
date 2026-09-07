@@ -7,7 +7,7 @@ Personal portfolio and blog built with [Jupyter Book](https://jupyterbook.org/).
 ## Overview
 
 - **Portfolio** — Education, experience, skills, and publications
-- **Projects** — 12 detailed write-ups of ML, NLP, deep learning, and software engineering projects
+- **Projects** — Detailed write-ups spanning ML, NLP, deep learning, AI interpretability, and software engineering
 - **Blog** — Technical posts and project updates with [utterances](https://utteranc.es/) comments
 
 ## Tech Stack
@@ -44,7 +44,7 @@ book/
 ├── publications.md      # Publications
 ├── requirements.txt     # Python dependencies
 ├── _static/             # Static assets (photo, CSS)
-├── projects/            # Project write-ups (12 projects)
+├── projects/            # Project write-ups
 └── blog/                # Blog posts
 ```
 

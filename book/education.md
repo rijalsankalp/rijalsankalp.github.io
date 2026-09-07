@@ -2,7 +2,7 @@
 
 ## M.S. Computer Science
 
-**Villanova University** · Aug 2024 – Present
+**Villanova University** · Aug 2024 – May 2026
 
 Coursework: LLMs, Machine Learning, Cloud Native App Design & Development, Design & Analysis of Algorithms
 

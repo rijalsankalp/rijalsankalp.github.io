@@ -3,8 +3,8 @@
 <div style="display: flex; align-items: center; gap: 1.5rem; margin-bottom: 1.5rem; flex-wrap: wrap;">
   <img src="_static/images/photo.jpeg" alt="Sankalpa Rijal" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 2px solid #e5e7eb; flex-shrink: 0;" />
   <div>
-    <strong style="font-size: 1.1rem;">CS Graduate Student · ML/NLP Engineer</strong><br/>
-    📍 Bryn Mawr, PA · ✉️ <a href="mailto:sankalpa.rijal239@gmail.com">sankalpa.rijal239@gmail.com</a><br/><br/>
+    <strong style="font-size: 1.1rem;">Data Scientist · ML, NLP & AI Interpretability</strong><br/>
+    📍 East Lansing, MI · ✉️ <a href="mailto:sankalpa.rijal239@gmail.com">sankalpa.rijal239@gmail.com</a><br/><br/>
     <a href="https://github.com/rijalsankalp"><img src="https://img.shields.io/badge/GitHub-rijalsankalp-181717?style=flat&logo=github" alt="GitHub"/></a>
     <a href="https://linkedin.com/in/rijalsankalp"><img src="https://img.shields.io/badge/LinkedIn-rijalsankalp-0A66C2?style=flat&logo=linkedin" alt="LinkedIn"/></a>
   </div>
@@ -12,9 +12,9 @@
 
 ## About Me
 
-CS graduate student at **Villanova University** specializing in Machine Learning, NLP, and Deep Learning. I build transformer-based models, engineer NLP features, and ship ML systems with CI/CD and containerized deployment.
+I'm a **Data Scientist at Michigan State University's Forest Economics & Resource Management Lab**, building Python and SQL data pipelines, developing optimization and machine learning solutions for supply chain and resource allocation, and creating interactive dashboards to make analytical results accessible.
 
-Currently a **Graduate Research & Teaching Assistant** working on disentangled representation learning with Hierarchical LSTMs and contrastive learning. Seeking entry-level AI/ML engineering roles.
+I earned my **M.S. in Computer Science from Villanova University**, where my research focused on learning semantic representations for story similarity using Sentence-BERT and Bi-LSTM projection layers. I co-authored a paper at SemEval 2026 and now independently study **AI safety and mechanistic interpretability**, using causal interventions to investigate how language models represent and use information during reasoning. My projects also span multimodal learning and LLM fine-tuning with MLOps.
 
 ## Core Skills
 
@@ -49,6 +49,16 @@ Next.js, React, Tailwind CSS, SQL Design, ER Modeling, Normalization
 
 ::::{grid} 2
 :gutter: 3
+
+:::{grid-item-card} 🔍 Reasoning Causal Tracing
+:link: projects/reasoning-causal-tracing
+:link-type: doc
+
+Mechanistic interpretability experiments testing how internal states influence Qwen3-0.6B's answers.
+
++++
+`PyTorch` `TransformerLens` `AI Safety` `Interpretability`
+:::
 
 :::{grid-item-card} 🧠 NovaMind MLOps Pipeline
 :link: projects/novamind-cis-benchmark-mlops

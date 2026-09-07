@@ -13,6 +13,7 @@ parts:
     chapters:
       - file: projects/index
         sections:
+          - file: projects/reasoning-causal-tracing
           - file: projects/novamind-cis-benchmark-mlops
           - file: projects/brain-tumor-classification
           - file: projects/image-caption-generation
@@ -29,4 +30,5 @@ parts:
     chapters:
       - file: blog/index
         sections:
+          - file: blog/posts/reasoning-causal-tracing
           - file: blog/posts/welcome

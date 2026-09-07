@@ -5,6 +5,16 @@ All technical projects spanning machine learning, NLP, deep learning, systems, a
 ::::{grid} 2
 :gutter: 3
 
+:::{grid-item-card} 🔍 Reasoning Causal Tracing
+:link: reasoning-causal-tracing
+:link-type: doc
+
+Ongoing mechanistic interpretability study of whether Qwen3-0.6B's internal reasoning states causally influence its answers.
+
++++
+`Python` `PyTorch` `TransformerLens` `AI Safety` `Interpretability`
+:::
+
 :::{grid-item-card} 🧠 NovaMind CIS Benchmark MLOps Pipeline
 :link: novamind-cis-benchmark-mlops
 :link-type: doc
